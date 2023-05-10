@@ -1,0 +1,11 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NZ-1" pn="GW1NZ-LV1FN32C6/I5">gw1nz1-006</Device>
+    <FileList>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/sharp506_FN32.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
